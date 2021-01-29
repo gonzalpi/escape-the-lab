@@ -1,0 +1,31 @@
+body {
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    height: 80vh;
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item {
+    margin: 20px;
+    text-align: center;
+}
+
+#corner-button {
+    text-align: end;
+}
+
+#small-img {
+    width: 15vw;
+}
