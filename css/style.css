@@ -6,6 +6,10 @@ p {
     text-align: center;
 }
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .grid-container {
     height: 90vh;
 
