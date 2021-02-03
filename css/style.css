@@ -1,14 +1,13 @@
-body {
-    background-image: url("../img/img-1.jpg");
-    background-size: cover;
-}
-
 h1 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
 .grid-container {
-    height: 80vh;
+    height: 90vh;
 
     display: grid;
     grid-template-rows: auto;
@@ -22,10 +21,90 @@ h1 {
     text-align: center;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 20px;
+}
+
 #corner-button {
     text-align: end;
 }
 
 #small-img {
-    width: 15vw;
+    height: 10vh;
+}
+
+#tall-img {
+    height: 40vh;
+}
+
+#intro {
+    background-image: url("../img/0-bg.png");
+    background-size: cover;
+}
+
+#pg1 {
+    background-image: url("../img/1-bg.png");
+    background-size: cover;
+}
+
+/* may use two different backgrounds */
+#pg2 {
+    background-image: url("../img/2-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0,194,203,255);
+}
+
+#pg3 {
+    background-image: url("../img/3-bg.png");
+    background-size: cover;
+}
+
+#pg4 {
+    background-image: url("../img/4-bg.png");
+    background-size: cover;
+}
+
+#pg5 {
+    background-image: url("../img/5-bg.JPG");
+    background-size: cover;
+}
+
+#pg6 {
+    background-image: url("../img/6-bg.png");
+    background-size: cover;
+}
+
+#numbox {
+    width: 2em;
+}
+
+/* may use two different backgrounds */
+#map-1 {
+    background-image: url("../img/1-map.png");
+    background-size: 71vh 40vh;
+    height: 40vh;
+    width: 71vh;
+}
+
+#white-bg {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* may use two different sets of pictures */
+
+#cw-4 {
+    background-image: url("../img/4-cw.png");
+    background-size: 40vh 40vh;
+    height: 40vh;
+    width: 40vh;
+}
+
+#clues-4 {
+    background-image: url("../img/4-clues.png");
+    background-size: 40vh 40vh;
+    height: 40vh;
+    width: 40vh;
 }
