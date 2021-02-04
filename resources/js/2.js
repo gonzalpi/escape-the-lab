@@ -1,12 +1,12 @@
 var a;
-var ans = 4319;
-// var ans = 6281;
+var ans = "apollo";
+// var ans = "billar";
 function getVal() {
     a = document.getElementById("n1");
 }
 function onClick() {
     if (a.value == ans){
         alert("Correcto")
-        window.location.href = "4.html";
+        window.location.href = "../ilusionistas/index.html";
     }
 }

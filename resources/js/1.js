@@ -13,6 +13,6 @@ function getVal() {
 function onClick() {
     if (a.value == ans[0] && b.value == ans[1] && c.value == ans[2] && d.value == ans[3]){
         alert("Correcto")
-        window.location.href = "2.html";
+        window.location.href = "../snowden/index.html";
     }
 }
