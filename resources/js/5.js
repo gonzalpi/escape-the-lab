@@ -7,6 +7,6 @@ function getVal() {
 function onClick() {
     if (a.value.toLowerCase() == ans){
         alert("Correcto")
-        window.location.href = "../acertijo/index.html";
+        window.location.href = "../acertijo";
     }
 }

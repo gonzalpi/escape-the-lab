@@ -7,6 +7,6 @@ function getVal() {
 function onClick() {
     if (a.value == ans){
         alert("Correcto")
-        window.location.href = "../nemo/index.html";
+        window.location.href = "../nemo";
     }
 }

@@ -1,3 +1,3 @@
 function onClick() {
-    window.location.href = "cazadores/index.html";
+    window.location.href = "cazadores";
 }

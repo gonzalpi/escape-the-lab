@@ -7,6 +7,6 @@ function getVal() {
 function onClick() {
     if (a.value == ans){
         alert("Correcto")
-        window.location.href = "../cafetera/index.html";
+        window.location.href = "../cafetera";
     }
 }
