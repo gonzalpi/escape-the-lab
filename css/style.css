@@ -11,7 +11,7 @@ body {
 }
 
 .grid-container {
-    height: 90vh;
+    height: 95vh;
 
     display: grid;
     grid-template-rows: auto;
@@ -21,7 +21,7 @@ body {
 }
 
 .grid-item {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -30,12 +30,21 @@ body {
     margin-left: 20px;
 }
 
-#corner-button {
-    text-align: end;
+.numbox {
+    width: 2em;
+}
+
+.send-button {
+    background-image: url("../img/enviar.png");
+    background-size: 16vh 8vh;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    height: 8vh;
+    width: 16vh;
 }
 
 #small-img {
-    height: 10vh;
+    height: 15vh;
 }
 
 #tall-img {
@@ -72,10 +81,6 @@ body {
     background-size: cover;
 }
 
-#numbox {
-    width: 2em;
-}
-
 #white-bg {
     background-color: rgba(255, 255, 255, 0.75);
 }
@@ -83,7 +88,7 @@ body {
 /* IMAGE SET WILL BE DIFFERENT FOR EACH ROUND */
 
 #pg2 {
-    background-image: url("../img/2-bg.png");
+    background-image: url("../img/round/2-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -91,21 +96,21 @@ body {
 }
 
 #map-1 {
-    background-image: url("../img/1-map.png");
+    background-image: url("../img/round/1-map.png");
     background-size: 71vh 40vh;
     height: 40vh;
     width: 71vh;
 }
 
 #cw-4 {
-    background-image: url("../img/4-cw.png");
+    background-image: url("../img/round/4-cw.png");
     background-size: 40vh 40vh;
     height: 40vh;
     width: 40vh;
 }
 
 #clues-4 {
-    background-image: url("../img/4-clues.png");
+    background-image: url("../img/round/4-clues.png");
     background-size: 40vh 40vh;
     height: 40vh;
     width: 40vh;

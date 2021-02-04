@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los cazadores del paquete perdido</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/1.js"></script>
 </head>
-<body id="pg1">
+<body id="pg1" onload="getVal();">
     <div class="grid-container">
-        <div class="grid-item" id="white-bg">
-            <p>Como ya se dieron cuenta, pusieron un paquete de la “Sustancia x”</p>
-            <p>en el lugar equivocado, es de vital importancia que la recuperen</p>
-            <p>antes de que se utilice como “vacuna” en seres humanos. La gran</p>
-            <p>pregunta es ¿dónde está la información?</p>
+        <div class="grid-item" style="display: block; height: 5vh; grid-area: 1/1/span 1/span 3"></div>
+        <div class="grid-item" id="white-bg" style="grid-area: 2/1/span 1/span 3">
+            <p>Como ya se dieron cuenta, pusieron un paquete de la “Sustancia x” en el lugar equivocado,</p>
+            <p>es de vital importancia que la recuperen antes de que se utilice como “vacuna” en seres</p>
+            <p>humanos. La gran pregunta es ¿dónde está la información?</p>
         </div>
-        <div class="grid-item" id="map-1"></div>
-        <div class="grid-item">
-            <input type="text" id="numbox">
-            <input type="text" id="numbox">
-            <input type="text" id="numbox">
-            <input type="text" id="numbox">
+        <div class="grid-item" id="map-1" style="grid-area: 3/2/span 1/span 1"></div>
+        <div class="grid-item" style="grid-area: 4/1/span 1/span 3">
+            <div>
+                <input type="text" class="numbox" id="n1">
+                <input type="text" class="numbox" id="n2">
+                <input type="text" class="numbox" id="n3">
+                <input type="text" class="numbox" id="n4">
+            </div>
+            <div style="display: block; height: 15px;"></div>
+            <div>
+                <input class="send-button" type="button" onclick="onClick();"/>
+            </div>
         </div>
     </div>
-    <div id="corner-button"><button>Enviar</button></div>
 </body>
 </html>

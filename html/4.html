@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CaFeTeRa</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/4.js"></script>
 </head>
-<body id="pg4">
+<body id="pg4" onload="getVal();">
     <div class="grid-container" style="grid-template-columns: auto auto;">
         <div class="grid-item" id="white-bg" style="grid-area: 1/1/span 1/span 2;">
             <p>Si quieren pasar deberán ayudarme a ganar, perdí una apuesta con</p>
@@ -17,9 +18,12 @@
         <div class="grid-item" id="cw-4" style="grid-area: 2/1/span 1/span 1"></div>
         <div class="grid-item" id="clues-4" style="grid-area: 2/2/span 1/span 1;"></div>
         <div class="grid-item" style="grid-area: 3/1/span 1/span 2">
-            <input type="text">
+            <input type="text" id="n1">
+            <div style="display: block; height: 15px;"></div>
+            <div>
+                <input class="send-button" type="button" onclick="onClick();"/>
+            </div>
         </div>
     </div>
-    <div id="corner-button"><button>Enviar</button></div>
 </body>
 </html>

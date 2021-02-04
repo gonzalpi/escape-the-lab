@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowden</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/2.js"></script>
 </head>
-<body id="pg2">
-    <div class="grid-container" style="align-content: end;">
+<body id="pg2" onload="getVal();">
+    <div class="grid-container">
         <div class="grid-item" id="white-bg">
             <p>¿Sabías que la contraseña más común es “123456”?</p>
         </div>
+        <div style="display: block; height: 35vh;"></div>
         <div class="grid-item">
-            <input type="text">
+            <div><input type="password" id="n1"></div>
+            <div style="display: block; height: 15px;"></div>
+            <div>
+                <input class="send-button" type="button" onclick="onClick();"/>
+            </div>
         </div>
     </div>
-    <div id="corner-button"><button>Enviar</button></div>
 </body>
 </html>

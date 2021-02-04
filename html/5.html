@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscando a Nemo</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/5.js"></script>
 </head>
-<body id="pg5">
+<body id="pg5" onload="getVal();">
     <div class="grid-container">
         <div class="grid-item" id="white-bg">
             <p>Nada de lo que verán es casualidad, todo está aquí por algo, todo se relaciona.</p>
@@ -21,9 +22,12 @@
             <span><a href="https://drive.google.com/drive/folders/1YZ2l-5tgk-XVe8ACGa0XD-od1gvIjGuV?usp=sharing" target="_blank"><img src="../img/5-red.PNG"    id="tall-img"></a></span>
         </div>
         <div class="grid-item">
-            <input type="text">
+            <input type="text" id="n1">
+            <div style="display: block; height: 15px;"></div>
+            <div>
+                <input class="send-button" type="button" onclick="onClick();"/>
+            </div>
         </div>
     </div>
-    <div id="corner-button"><button>Enviar</button></div>
 </body>
 </html>
