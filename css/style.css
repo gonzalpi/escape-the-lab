@@ -52,15 +52,6 @@ body {
     background-size: cover;
 }
 
-/* may use two different backgrounds */
-#pg2 {
-    background-image: url("../img/2-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: rgba(0,194,203,255);
-}
-
 #pg3 {
     background-image: url("../img/3-bg.png");
     background-size: cover;
@@ -85,19 +76,26 @@ body {
     width: 2em;
 }
 
-/* may use two different backgrounds */
+#white-bg {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* IMAGE SET WILL BE DIFFERENT FOR EACH ROUND */
+
+#pg2 {
+    background-image: url("../img/2-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0,194,203,255);
+}
+
 #map-1 {
     background-image: url("../img/1-map.png");
     background-size: 71vh 40vh;
     height: 40vh;
     width: 71vh;
 }
-
-#white-bg {
-    background-color: rgba(255, 255, 255, 0.75);
-}
-
-/* may use two different sets of pictures */
 
 #cw-4 {
     background-image: url("../img/4-cw.png");
