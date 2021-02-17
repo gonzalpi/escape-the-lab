@@ -44,6 +44,15 @@ body {
     width: 16vh;
 }
 
+.continue-button {
+    background-image: url("../img/continuar.png");
+    background-size: 16vh 8vh;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    height: 8vh;
+    width: 16vh;
+}
+
 #small-img {
     height: 15vh;
 }
@@ -60,6 +69,14 @@ body {
 #pg1 {
     background-image: url("../img/1-bg.png");
     background-size: cover;
+}
+
+#pg2 {
+    background-image: url("../img/2-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0,194,203,255);
 }
 
 #pg3 {
@@ -88,16 +105,8 @@ body {
 
 /* IMAGE SET WILL BE DIFFERENT FOR EACH ROUND */
 
-#pg2 {
-    background-image: url("../img/round/2-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: rgba(0,194,203,255);
-}
-
 #map-1 {
-    background-image: url("../img/round/1-map.png");
+    background-image: url("../img/round-1/1-map.png");
     background-size: 107vh 60vh;
     height: 60vh;
     width: 107vh;
@@ -107,21 +116,15 @@ body {
 }
 
 #cw-4 {
-    background-image: url("../img/round/4-cw.png");
-    background-size: 60vh 60vh;
-    height: 60vh;
-    width: 60vh;
-    /* background-size: 40vh 40vh;
-    height: 40vh;
-    width: 40vh; */
+    background-image: url("../img/round-1/4-cw.png");
+    background-size: 55vh 55vh;
+    height: 55vh;
+    width: 55vh;
 }
 
 #clues-4 {
-    background-image: url("../img/round/4-clues.png");
-    background-size: 60vh 60vh;
-    height: 60vh;
-    width: 60vh;
-    /* background-size: 40vh 40vh;
-    height: 40vh;
-    width: 40vh; */
+    background-image: url("../img/round-1/4-clues.png");
+    background-size: 55vh 55vh;
+    height: 55vh;
+    width: 55vh;
 }

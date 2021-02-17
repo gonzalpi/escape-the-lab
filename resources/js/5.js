@@ -1,6 +1,6 @@
 var a;
 var ans = "cozumel";
-// var ans = "bacalar";
+// var ans = "corteza";
 function getVal() {
     a = document.getElementById("n1");
 }
